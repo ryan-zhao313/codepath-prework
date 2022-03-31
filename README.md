@@ -61,7 +61,7 @@ If you recorded multiple GIFs for all the implemented features, you can add them
 
 ## Interview Recording URL Link
 
-[My 5-minute Interview Recording](your-link-here)
+[My 5-minute Interview Recording](https://emory.zoom.us/rec/share/Sxn_C_fqk_dSI7Kh66StSf_LQ3SK_oUXeD71bueenGBOfV87lMHxw9mETNSLDCCH.olOS7mPYlkfMoAl9?startTime=1648769957000)
 
 
 ## License
