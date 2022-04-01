@@ -39,20 +39,14 @@ The following **additional** features are implemented:
 ## Video Walkthrough (GIF)
 
 If you recorded multiple GIFs for all the implemented features, you can add them here:
-Win:
 ![Win](https://media.giphy.com/media/axgJ4hani5R83uCDdx/giphy.gif)
-Lose:
 ![Lose](https://media.giphy.com/media/GnPwBUUV3eJl2m2xy0/giphy.gif)\
-Timer Runs Out:
 ![Timer](https://media.giphy.com/media/H7xM3EWVI6lQeu0kly/giphy.gif)
 
 ## Reflection Questions
 1. If you used any outside resources to help complete your submission (websites, books, people, etc) list them here.
-  setInterval:
   (https://www.w3schools.com/jsref/met_win_setinterval.asp)
-  clearInterval:
   (https://www.w3schools.com/jsref/met_win_clearinterval.asp)
-  Timer:
   (https://stackoverflow.com/questions/31559469/how-to-create-a-simple-javascript-timer)
 
 2. What was a challenge you encountered in creating this submission (be specific)? How did you overcome it?
