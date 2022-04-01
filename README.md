@@ -46,10 +46,8 @@ If you recorded multiple GIFs for all the implemented features, you can add them
 ## Reflection Questions
 1. If you used any outside resources to help complete your submission (websites, books, people, etc) list them here.
   (https://www.w3schools.com/jsref/met_win_setinterval.asp)
-  
-  (https://www.w3schools.com/jsref/met_win_clearinterval.asp)
-  
-  (https://stackoverflow.com/questions/31559469/how-to-create-a-simple-javascript-timer)
+    (https://www.w3schools.com/jsref/met_win_clearinterval.asp)
+    (https://stackoverflow.com/questions/31559469/how-to-create-a-simple-javascript-timer)
 
 2. What was a challenge you encountered in creating this submission (be specific)? How did you overcome it?
 When working on creating this submission, I wanted to challenge myself and implement the most appealing additional feature which was adding a timer. I wasn’t sure where to start other than finding resources and reading up on how setInterval and clearInterval functions work. I decided to trace my thought process and break the timer feature down into small subproblems. To begin, I began to implement the HTML and give my timer an id so I can change the time inside the DOM. The next step I did was setInterval so I can call on a function every single second to decrement the timer. I ran into a lot of errors while testing the game because the new function to decrement the timer was being called on another time when I press the start button. To resolve this issue, I added clearInterval to stop the time and reset the clock by changing the values back. Additionally, I added a new game alert to check if the timer has run out. When the timer runs out, the player will lose the game. Through lots of testing by playing the game, I was able to implement a timer feature that I am very proud of.
