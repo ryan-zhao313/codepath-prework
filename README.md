@@ -39,23 +39,30 @@ The following **additional** features are implemented:
 ## Video Walkthrough (GIF)
 
 If you recorded multiple GIFs for all the implemented features, you can add them here:
+Win:
 ![Win](https://media.giphy.com/media/axgJ4hani5R83uCDdx/giphy.gif)
-![Lose](https://media.giphy.com/media/GnPwBUUV3eJl2m2xy0/giphy.gif)
+Lose:
+![Lose](https://media.giphy.com/media/GnPwBUUV3eJl2m2xy0/giphy.gif)\
+Timer Runs Out:
 ![Timer](https://media.giphy.com/media/H7xM3EWVI6lQeu0kly/giphy.gif)
 
 ## Reflection Questions
-1. If you used any outside resources to help complete your submission (websites, books, people, etc) list them here. 
+1. If you used any outside resources to help complete your submission (websites, books, people, etc) list them here.
+  setInterval:
   (https://www.w3schools.com/jsref/met_win_setinterval.asp)
+  clearInterval:
   (https://www.w3schools.com/jsref/met_win_clearinterval.asp)
+  Timer:
+  (https://stackoverflow.com/questions/31559469/how-to-create-a-simple-javascript-timer)
 
-2. What was a challenge you encountered in creating this submission (be specific)? How did you overcome it? (recommended 200 - 400 words) 
-[When working on creating this submission, I wanted to challenge myself and implement the most appealing additional feature which was adding a timer. I wasn’t sure where to start other than finding resources and reading up on how setInterval and clearInterval functions work. I decided to trace my thought process and break the timer feature down into small subproblems. To begin, I began to implement the HTML and give my timer an id so I can change the time inside the DOM. The next step I did was setInterval so I can call on a function every single second to decrement the timer. I ran into a lot of errors while testing the game because the new function to decrement the timer was being called on another time when I press the start button. To resolve this issue, I added clearInterval to stop the time and reset the clock by changing the values back. Additionally, I added a new game alert to check if the timer has run out. When the timer runs out, the player will lose the game. Through lots of testing by playing the game, I was able to implement a timer feature that I am very proud of.]
+2. What was a challenge you encountered in creating this submission (be specific)? How did you overcome it?
+When working on creating this submission, I wanted to challenge myself and implement the most appealing additional feature which was adding a timer. I wasn’t sure where to start other than finding resources and reading up on how setInterval and clearInterval functions work. I decided to trace my thought process and break the timer feature down into small subproblems. To begin, I began to implement the HTML and give my timer an id so I can change the time inside the DOM. The next step I did was setInterval so I can call on a function every single second to decrement the timer. I ran into a lot of errors while testing the game because the new function to decrement the timer was being called on another time when I press the start button. To resolve this issue, I added clearInterval to stop the time and reset the clock by changing the values back. Additionally, I added a new game alert to check if the timer has run out. When the timer runs out, the player will lose the game. Through lots of testing by playing the game, I was able to implement a timer feature that I am very proud of.
 
-3. What questions about web development do you have after completing your submission? (recommended 100 - 300 words) 
-[After completing this submission, I was wondering what technologies and frameworks I will be able to work within web development and which one is best for certain projects and objectives. How does security work in terms of websites what does cybersecurity looks like? I am curious about these questions and I am interested in learning how to use tools to best prepare me for the future. I am also intrigued by how websites keep personal data safe in databases. There are many things about web development I do not know about, but I am excited to gain more project experience and learn!]
+3. What questions about web development do you have after completing your submission?
+After completing this submission, I was wondering what technologies and frameworks I will be able to work within web development and which one is best for certain projects and objectives. How does security work in terms of websites what does cybersecurity looks like? I am curious about these questions and I am interested in learning how to use tools to best prepare me for the future. I am also intrigued by how websites keep personal data safe in databases. There are many things about web development I do not know about, but I am excited to gain more project experience and learn!
 
-4. If you had a few more hours to work on this project, what would you spend them doing (for example: refactoring certain functions, adding additional features, etc). Be specific. (recommended 100 - 300 words) 
-[If I had a few more hours to work on this project, I would create three difficulty settings: easy, medium, and hard. As the difficulty increases, I want to add more buttons. For example, easy has 4 buttons, the medium has 8 buttons, and hard has 12 buttons. I also want an option for the player to set their own time limit with a few pre-settings at 30 seconds and 1 minute. This would mean I would have to add more user interactions and also heavily change the DOM so the page becomes a little more dynamic depending on the setting. Moreover, I would experiment more in CSS by playing around with adding cool audio files, changing the buttons, and adding new designs to the webpage.]
+4. If you had a few more hours to work on this project, what would you spend them doing (for example: refactoring certain functions, adding additional features, etc). Be specific.
+If I had a few more hours to work on this project, I would create three difficulty settings: easy, medium, and hard. As the difficulty increases, I want to add more buttons. For example, easy has 4 buttons, the medium has 8 buttons, and hard has 12 buttons. I also want an option for the player to set their own time limit with a few pre-settings at 30 seconds and 1 minute. This would mean I would have to add more user interactions and also heavily change the DOM so the page becomes a little more dynamic depending on the setting. Moreover, I would experiment more in CSS by playing around with adding cool audio files, changing the buttons, and adding new designs to the webpage.
 
 
 
